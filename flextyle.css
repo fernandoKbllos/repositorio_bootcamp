@@ -1,0 +1,66 @@
+body {
+    background: linear-gradient(to bottom, black, rgb(95, 84, 84))
+
+}
+
+.cabecera  {
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content:space-between;
+    width: 95%;
+    padding:0.5em;
+    margin:auto;
+}
+.nombre {
+    color: white;
+    font-size: 3em;
+}
+.elemento {
+    display: inline;
+    padding: 20px;
+}
+
+.elemento a:hover {
+    color: white;
+}
+
+.menu {
+    height:50px;
+    width: 40%;
+    
+    padding: 0.5em;
+
+}
+
+.logo {
+    width: 300px;
+    border: 1px solid white;
+    padding:0.5em;
+}
+
+.contenedor-1 {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap: wrap;
+}
+
+.principal {
+    margin: 0.5em;
+    width: 90vw;
+    border: 1px solid white;
+    text-align:center;
+    background-color: rgba(165, 165, 214, 0.171);
+    height: 50vh;
+    padding: 4px;
+    color: white;
+}
+
+.secundario {
+    width: 30vw;
+    text-align:center;
+    border: 2px solid rgb(5, 5, 5);
+    height: 30em;
+    color: white;
+    background-color: rgba(221, 221, 236, 0.288);
+}
