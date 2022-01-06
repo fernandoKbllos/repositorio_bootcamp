@@ -15,6 +15,7 @@ a {
 }
 .nombre {
     display:flex;
+    padding-top: 0.5em;
     color: white;
     font-size: 3em;
     text-shadow:4px 4px 4px rgb(192, 25, 13);
