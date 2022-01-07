@@ -16,6 +16,7 @@ body{
     flex-direction:column;
     padding: 2em;
     border-radius: 0.5em;
+    border: 2px solid white;
 }
 .formulario *{
     display: block;
