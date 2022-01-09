@@ -94,11 +94,14 @@ section p {
     margin-top: 2rem;
     margin-bottom: 2rem;
     border-bottom: 2px solid black;
-    padding-bottom:1rem ;
+    border-top: 2px solid black;
+    padding:1rem;
 }
 .principal img {
     display:flex;
-    padding-left: 3rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 10px black;
    
     width: 90%;
     height: calc(100vh -2rem);
@@ -129,7 +132,7 @@ h3 {
     background-color: rgba(0, 0, 0, 0.548);
     color: white;
     padding: 1rem;
-    padding-top: ;
+    
 }
  h3 {
     background-color: rgba(0, 0, 0, 0.548);
