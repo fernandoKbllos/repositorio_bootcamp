@@ -78,7 +78,6 @@ section p {
     margin: 1rem;
     width: 100%;
     height: calc(100vh -2rem);
-
     object-fit: cover;
 
 }
