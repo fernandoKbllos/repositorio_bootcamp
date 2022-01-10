@@ -1,18 +1,35 @@
 "use strict"
 
 
-const iPadMini = 500;
+const fruta = "agua"
+// fresa, manzana,platano, naranja
+// Escribir con switch que diga que color es la fruta. no olvidar break
 
-const iPad = 1000;
 
-const iPadpro = 1500;
 
-let ahorros = 750;
+switch (fruta) {
+    case "manzana":
+        console.log("Las manzanas son de color");
+        console.log("verdes");
+        break;
 
-if ( ahorros > iPadpro) {
-    console.log ( "Me compro el iPad" );
-   } else if (ahorros > iPad) {
-       console.log (" Me compro el iPadPro");
-   }  else {
-    console .log (" Me conformo con el mini")
+     case "platano":
+        console.log("Los platanos son de color ");
+         console.log("amarillos");
+         break;
+         
+     case "naranjas":
+        console.log("Las naranjas son de color ");
+         console.log("naranja");
+         break;
+     case "fresa":
+         console.log("Las fresas son de color ");
+         console.log("rojas");
+         break;
+         
+     default :
+         console.log("Ni es blanco, ni es tinto, ni tiene color")
+
 }
+
+
