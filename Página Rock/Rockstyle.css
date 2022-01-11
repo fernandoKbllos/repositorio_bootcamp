@@ -122,12 +122,19 @@ section p {
     justify-content: space-between;
     
 }
+.instru {
+    border-bottom: 1em solid black;
+}
 h3 {
     text-align:center;
     margin-top: 1rem;
     padding-top: 1rem;
     padding-bottom: 2rem;
+    background-color: rgba(0, 0, 0, 0.548);
+    color: white;
 }
+
+
 
 
 
@@ -141,12 +148,8 @@ h3 {
     background-color: rgba(0, 0, 0, 0.548);
     color: white;
     padding: 1rem;
-    
 }
- h3 {
-    background-color: rgba(0, 0, 0, 0.548);
-    color: white;
-}
+
 .cosas {
     margin: 1rem;
 }
