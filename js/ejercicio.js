@@ -1,7 +1,7 @@
 "use strict"
 
 
-const fruta = "agua"
+const fruta = "fresa"
 // fresa, manzana,platano, naranja
 // Escribir con switch que diga que color es la fruta. no olvidar break
 
@@ -24,11 +24,12 @@ switch (fruta) {
          break;
      case "fresa":
          console.log("Las fresas son de color ");
-         console.log("rojas");
+         console.log("rojo");
          break;
          
      default :
          console.log("Ni es blanco, ni es tinto, ni tiene color")
+         break;
 
 }
 
