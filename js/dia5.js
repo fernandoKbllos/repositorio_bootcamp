@@ -24,6 +24,6 @@ const animales = ["perro", "gato", "pajaro", "gato", "gato", "pajaro", "perro"];
 
  console.log(sinPerros);
 
- const totalPerros = ( (animales[]) - (sinPerros []));
+ const totalPerros = 
 
  console.log(totalPerros);
