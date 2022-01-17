@@ -1,12 +1,20 @@
-* {
-    background: rgb(158, 118, 158);
-    color: rgb(253, 253, 252);
-}
+*{
+    background: rgba(209, 0, 209, 0.1);
+   } 
+body header h1{
+    color:rgba(0, 0, 0, 0.6);
+    text-align:center ;
+    text-decoration: ;
+    }
 p {
     color: black;
-    font-size: 4em;
+    font-size: 3em;
+    font-family:Georgia, 'Times New Roman', Times, serif, sans-serif
     
 }
 img {
     width: 50%;
-}
+    }
+main h1 {
+    text-shadow:indianred 0.2em 0.2em 5px;
+}   
