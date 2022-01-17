@@ -16,29 +16,15 @@ setTimeout(callback, 1000);*/
      console.log(`han pasado ${count} segundos` );
      count += 5;
 }
- setInterval((callback), 5000);*/
+ setInterval((callback), 5000);
  
  
 
 
 
+/*Temporizador que a los 5s diga que se ha acabado el tiempo*/
 
+console.log("El tiempo se acabará en 5 segundos");
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- /*Temporizador que a los 5s diga que se ha acabado el tiempo*/
+const temporizador = setTimeout (() => console.log("Time out"),5000);
 
