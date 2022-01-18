@@ -71,3 +71,4 @@ async function getData(id) {
 // y sus titulos cada uno en una linea
 
 const trones = fench ("https://anapioficeandfire.com/api/houses/")
+const nuevo = 1
